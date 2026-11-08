@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: brown;
+	align-items: center;
+}
+
+.container {
+	background-color: gold;
+	width: 500px;
+	margin: 150px auto;
+	/* justify-self: center; */
+	border: 1px solid greenyellow;
+	border-radius: 10px;
+	color: brown;
+	text-align: center;
+	position: relative;
+	border: 5px solid red;
+}
+
+h3 {
+	color: black;
+	margin: 30px auto 0;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	word-spacing: 7px;
+	font-family: cursive;
+}
+
+#message {
+    height: 150px;
+	color: grey;
+	line-height: 45px;
+	padding: 20px 30px;
+	font-size: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.divider {
+	display: block;
+	justify-self: center;
+	margin: 50px auto 60px;
+}
+
+.dice {
+	border: 5px solid red;
+	padding: 20px;
+	background-color: cadetblue;
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	/* top: 50%; */
+	left: 50%;
+	translate: -50% -50%;
+	/* margin-left: 10px; */
+	/* justify-self: left; */
+}
+
+.attribution {
+	color: whitesmoke;
+    font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+}
+
+.attribution a {
+	color: black;
+	text-decoration: none;
+    font-family: cursive;
+}
